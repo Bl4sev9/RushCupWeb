@@ -6,15 +6,7 @@
     <title>Rush Cup Strona Główna</title>
     <style>
         
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rush Cup Strona Główna</title>
-    <style>
-        
-                   body {
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -26,9 +18,8 @@
             background-color: #004e6d;
             padding: 15px 20px;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            position: relative;
         }
 
         header h1 {
@@ -38,20 +29,19 @@
             flex: 1; 
             text-align: center;
         }
-
+        
         header h3 {
+
             color: rgb(243, 243, 243);
             margin: 0;
             font-size: 24px;
-            position: absolute;
-            left: 20px;
-        }
+            text-align: left;
 
+        }
+            
         nav {
             display: flex;
             gap: 15px;
-            position: absolute;
-            right: 20px;
         }
 
         nav a {
@@ -62,14 +52,6 @@
 
         nav a:hover {
             color: #0af;
-        }
-
-        header img {
-            height: 58px;
-            object-fit: contain;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
         }
 
         .main-container {
@@ -134,6 +116,14 @@
             text-decoration: none;
         }
 
+        header img {
+            height: 50px; /* Fixed height for the image */
+            object-fit: contain; /* Keeps aspect ratio */
+            position: absolute;
+            left: 924px;
+            transform: translateX(-50%);
+        }
+    
         .footer img {
             height: 30px; /* Set height to match footer size */
             width: auto; /* Maintain aspect ratio */
@@ -143,6 +133,14 @@
 
         .footer img:hover {
             transform: scale(1.2);
+        }
+        .footer a {
+            color: #0af;
+            text-decoration: none;
+        }
+        
+    
+        
     </style>
 </head>
 <body>
