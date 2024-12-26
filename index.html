@@ -20,6 +20,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: relative;
         }
 
         header h1 {
@@ -117,11 +118,12 @@
         }
 
         header img {
-            height: 50px; /* Fixed height for the image */
+            height: 58px; /* Fixed height for the image */
             object-fit: contain; /* Keeps aspect ratio */
             position: absolute;
-            left: 924px;
+            left: 50%;
             transform: translateX(-50%);
+            z-index: 1;
         }
     
         .footer img {
